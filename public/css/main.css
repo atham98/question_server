@@ -1,0 +1,116 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+#wrapper {
+    min-width: 350px;
+    max-width: 100%;
+}
+#container {
+    margin: auto;
+    max-width: 1100px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #F8F9FA;
+}
+#form_create {
+    max-width: 600px;
+}
+#table th{
+    background: #ECECEC;
+}
+
+#table {
+    margin-right: 40px;
+    width: 100%;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+}
+
+#main div,#panel div{
+    display: flex;
+    margin: 5px;
+}
+#answer {
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+    border-left:solid 1px #ccc;
+    margin-top: 30px;
+}
+#answer p {
+    font-size: 20px;
+}
+#category{
+    border-left: solid 1px black;
+}
+#timestamp {
+    font-size: 14px;
+}
+
+#panel {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+#control {
+    max-width: 400px;
+    flex-direction: column;
+    padding: 5px;
+    background: #F0F1F2;
+    min-width: 250px;
+    max-height: 230px;
+}
+
+#tool {
+        max-width: 1100px;
+        flex-direction: column;
+        padding-left: 50px;
+}
+
+.panel-title {
+    padding: 3px;
+    color: #262626;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list-group span {
+    padding: 2px;
+    font-weight: bold;
+}
+.list-group .list-group-item:hover {
+    background: #F0F1F2;
+}
+table .red{
+    color:#D13838;
+}
+table .green {
+    color:#0AAD0A;
+}
+table .yellow {
+    color: #C6A400;
+}
+@media screen and (max-width: 600px) {
+    #category {
+        display: none!important;
+    }
+    #tool {
+        padding: 0;
+    }
+
+}
+
